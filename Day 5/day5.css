@@ -1,0 +1,41 @@
+/* universal selector */
+*{
+    margin: 20%;
+}
+    
+
+/* Type Selector */
+body {
+    color: rgb(203, 203, 226);
+    background-color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*  Class Selector */
+.first {
+    color: black;
+}
+
+.large {
+    font-size:  50px;
+    ;
+}
+
+/* Id selector */
+#eklist {
+    background-color: green;
+}
+/* Attribute Selector */
+a[href ="upflairs.com"] {
+    color: brown;
+}
+
+input[type="text"] {
+    background-color: aqua;
+}
+/* Pseudo Selector */
+.first:hover{
+    color: white;
+}
+
+

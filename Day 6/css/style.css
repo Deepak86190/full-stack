@@ -1,0 +1,79 @@
+/* Color styling in CSS */
+body {
+    background-color: rgb(188, 219, 13);
+}
+
+.heading {
+    background-color: blueviolet;
+    width: 40%;
+    height: 10%;
+    /* margin: 100px 300px 30px 50px; */
+    margin: 100px 200px;
+    /*Vertical Horizontal*/
+    /* margin: 30px; */
+    /* margin-left: 50px; */
+    /* padding: 30px; */
+    padding: 10%;
+}
+
+.para {
+    background-color: rgba(51, 170, 51, 7);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* text-align: justify; */
+    /* text-align: right; */
+
+
+}
+
+/* Dimensions */
+.box {
+    
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    /* 1em=16px */
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    border: 10px solid orange;
+    border-radius: 15%;
+    /* border : width style color */
+}
+
+/* Display & Position */
+
+
+span {
+    display: inline-block;
+    margin: 30px;
+    width: 40px;
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+.bbox1{
+    /* position: fixed; */
+    background-color:orangered;
+
+}
+.bbox2 {
+    background-color: aliceblue;
+    margin-block-end: -50px;
+}
+.bbox3 {
+    background-color: green;
+    position: relative;
+    /* bottom: 30px;
+    left: 50px; */
+    margin-block-start: 50px;
+}
