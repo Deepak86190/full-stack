@@ -102,6 +102,7 @@ a.hover {
     font-size: 2.5rem;
     background-color: #c2b4fd;
     display: inline-block;
+    padding: 0.5rem;
 }
 
 .titlespan {
@@ -113,14 +114,14 @@ a.hover {
 }
 
 .showCVbutton {
-    background: linear-gradient(white rgb(205, 205, 205), rgb(215, 215, 215));
-    /* padding: 10px 15px; */
+    background: linear-gradient(white, rgb(235, 235, 235), rgb(245, 245, 245));
+    /* padding: 10px 15px;  */
     border-radius: 5px;
     filter: drop-shadow(5px 5px 3px grey);
 }
 
 .showCVbutton:hover {
-    background: linear-gradient(white, rgb(215, 215, 215));
+    background: linear-gradient(rgb(77, 75, 75), rgb(215, 215, 215));
 }
 
 .discription {
@@ -133,7 +134,7 @@ a.hover {
     border-left: .1px solid;
     float: right;
     font-size: .6rem;
-    
+
 }
 
 .table1 {
@@ -144,4 +145,83 @@ a.hover {
 
 .number:hover {
     background: linear-gradient(white, rgb(215, 215, 215));
+}
+
+/* Services section */
+.services {
+    margin: 5rem;
+
+}
+
+.servicetext {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.textsubheading {
+    color: orange;
+    font-size: 1.25rem;
+    letter-spacing: 0.3rem;
+
+}
+
+.textheading {
+    font-size: 2.25rem;
+    font-weight: bold;
+
+}
+
+.Servicecards {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.Servicecard {
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 1px #aaaaaa);
+    margin: 15px;
+    padding: 40px;
+
+}
+
+.Servicecard:hover {
+    background-color: var(--secondaryColor);
+    filter: drop-shadow(3px 3px 8px grey)
+}
+
+.serviceicondiv {
+    color: white;
+    background-color: rgb(14, 14, 83);
+    padding: 30px;
+    /* display:inline-block ; */
+    margin-bottom: 20px;
+    font-size: 2rem;
+
+}
+
+.serviceicondiv:hover {
+
+    filter: drop-shadow(3px 3px 8px grey)
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.servicetitle {
+    font-size: 1.75rem;
+    margin: 2px 0px;
+}
+
+.servicefeature {
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.servicefeatureicon {
+    font-size: 1rem;
+
 }
