@@ -2,3 +2,7 @@
 git add
 git commit -m "daily comment"
 git push origin master
+
+#Download Git file
+git clone pathlink
+
