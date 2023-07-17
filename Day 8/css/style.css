@@ -275,11 +275,16 @@ a.hover {
     border-radius: 40%;
     background-color: #6ce79b;
     font-size: .8rem;
-    
+    /* justify-content:space-between; */
 
 }
 .servicefeaturecheck {
-    margin-bottom: 30px;  
+    margin-bottom: 30px; 
+     
+}
+.servicefeaturetext {
+     font-size: .8rem;
+    
 }
 .Hirebutton {
     background: linear-gradient(white, rgb(235, 235, 235), rgb(245, 245, 245));
