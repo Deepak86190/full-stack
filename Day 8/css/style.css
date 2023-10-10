@@ -35,6 +35,7 @@ body {
     padding-left: 20px;
     width: 34rem;
     align-items: center;
+    /* position: fixed; */
 }
 
 .logoImage {
@@ -52,7 +53,11 @@ body {
     flex-grow: 2;
     margin-left: 1%;
 }
+/* .menuItems:hover{
+    background-color: aquamarine;
+    color: white;
 
+} */
 /* Banner */
 .banner {
     display: flex;
@@ -67,6 +72,9 @@ body {
 .bannerImage {
     border-radius: 100%;
     height: 250px;
+    position:fixed;
+    top: 100px;
+    left: 900px;
 }
 
 .greetings {
@@ -118,6 +126,7 @@ a.hover {
     /* padding: 10px 15px;  */
     border-radius: 5px;
     filter: drop-shadow(5px 5px 3px grey);
+    
 }
 
 .showCVbutton:hover {
